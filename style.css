@@ -23,6 +23,11 @@ h1 {
   gap: var(--size-fluid-3);
 }
 
+.icon-spiral {
+  font-size: var(--font-size-8);
+  animation: var(--animation-spin);
+}
+
 .banner {
   display: flex;
   align-items: center;

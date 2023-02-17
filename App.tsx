@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { FaBeer } from 'react-icons/fa';
-import { TiSpanner } from 'react-icons/ti';
+import { TiSpanner, TiSpiral } from 'react-icons/ti';
 
 import './style.css';
 
@@ -18,8 +18,9 @@ function Banner() {
 export default function App() {
   return (
     <div className="fluid-gap">
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+      <h1>Hello World!</h1>
+      <p>Using Open Props and React Icons:</p>
+      <TiSpiral className="icon-spiral" />
       <button>
         A button <FaBeer />{' '}
       </button>
